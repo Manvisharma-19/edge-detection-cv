@@ -197,6 +197,6 @@ This project is submitted as academic coursework for the Computer Vision course.
 
 ## 👤 Author
 
-**Aarya Butolia**
-`23BAI10414`
+**Manvi Sharma**
+`23BAI10777`
 Computer Vision — BYOP Submission, March 2026

@@ -117,17 +117,17 @@ python edge_detection_pipeline.py
 ## 🔍 Edge Detection Techniques Used
 
 ### 1. Canny Edge Detection
-- Most widely used method
-- Multi-stage algorithm
-- Produces clean and thin edges
+-Most widely used method
+-Multi-stage algorithm
+-Produces clean and thin edges
 
 ### 2. Sobel Operator
-- Detects gradients in horizontal & vertical directions
-- Highlights edges based on intensity changes
+ -Detects gradients in horizontal & vertical directions
+ -Highlights edges based on intensity changes
 
 ### 3. Laplacian Operator
-- Detects edges using second-order derivatives
-- Captures fine details
+-Detects edges using second-order derivatives
+-Captures fine details
 
 ### 4. Prewitt Operator
 -Detects edges using first-order derivatives

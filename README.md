@@ -135,13 +135,16 @@ python edge_detection_pipeline.py
 
 ### 5. Scharr Operator
 -Improved version of Sobel operator and Produces sharper edge results
+
 -Better edge detection for fine details and more accurate gradient calculation
 
 ---
 
 ##📤 Upload Image Edge Detection
 -Allows user to upload custom image
+
 -Applies all edge detection techniques
+
 -Displays comparison of results
 
 ---

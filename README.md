@@ -108,7 +108,8 @@ python edge_detection_pipeline.py
 │             OUTPUT RESULTS                 │
 │ Edge Images (All Methods) + Comparison     │
 └────────────────────────────────────────────┘
-└──────────────────────────────┘
+
+
 ```
 
 ---

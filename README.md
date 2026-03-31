@@ -1,4 +1,4 @@
-# 🎯 Real-Time Edge Detection using OpenCV
+#  Real-Time Edge Detection using OpenCV
 
 > **Course:** Computer Vision — Bring Your Own Project (BYOP)
 > **Deadline:** March 31, 2026
@@ -9,20 +9,20 @@ A complete edge detection pipeline built using OpenCV that processes static imag
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Detecting object boundaries is a fundamental step in many computer vision tasks such as object recognition, segmentation, and tracking. Manual identification is inefficient and inconsistent.
 
 This project solves that by building a real-time edge detection system that can:
 
-- ✅ Detect edges in static images using multiple algorithms
-- ✅ Apply real-time edge detection on live webcam feed
-- ✅ Compare different edge detection techniques for better understanding
-- ✅ Generate clean, processed outputs for analysis and visualization
+-  Detect edges in static images using multiple algorithms
+-  Apply real-time edge detection on live webcam feed
+-  Compare different edge detection techniques for better understanding
+-  Generate clean, processed outputs for analysis and visualization
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 edge-detection-byop/
@@ -48,7 +48,7 @@ edge-detection-byop/
 
 ---
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 ### Prerequisites
 
@@ -78,7 +78,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 python edge_detection_pipeline.py
@@ -86,7 +86,7 @@ python edge_detection_pipeline.py
 
 ---
 
-## 🔄 Project Workflow
+##  Project Workflow
 
 ```
 ┌──────────────────────────────┐
@@ -114,7 +114,7 @@ python edge_detection_pipeline.py
 
 ---
 
-## 🔍 Edge Detection Techniques Used
+##  Edge Detection Techniques Used
 
 ### 1. Canny Edge Detection
 -Most widely used method
@@ -140,7 +140,7 @@ python edge_detection_pipeline.py
 
 ---
 
-##📤 Upload Image Edge Detection
+## Upload Image Edge Detection
 -Allows user to upload custom image
 
 -Applies all edge detection techniques
@@ -149,7 +149,7 @@ python edge_detection_pipeline.py
 
 ---
 
-## 📷 Webcam Edge Detection
+##  Webcam Edge Detection
 
 - Opens live camera feed
 - Applies edge detection in real-time
@@ -157,7 +157,7 @@ python edge_detection_pipeline.py
 
 ---
 
-## 📊 Output Files
+##  Output Files
 
 | File | Description |
 |------|-------------|
@@ -171,7 +171,7 @@ python edge_detection_pipeline.py
 
 ---
 
-## 🛠️ Configuration
+##  Configuration
 
 Modify parameters inside the script:
 
@@ -184,7 +184,7 @@ HIGH_THRESHOLD = 150
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 | Package | Purpose |
 |---------|---------|
@@ -196,7 +196,7 @@ HIGH_THRESHOLD = 150
 
 ---
 
-## 🧠 Key Concepts
+##  Key Concepts
 
 - Image Gradients
 - Noise Reduction (Gaussian Blur)
@@ -205,7 +205,7 @@ HIGH_THRESHOLD = 150
 
 ---
 
-## 🚧 Known Limitations
+##  Known Limitations
 
 - Sensitive to noise in low-quality images
 - Threshold tuning required for best results
@@ -213,13 +213,13 @@ HIGH_THRESHOLD = 150
 
 ---
 
-## 📄 License
+##  License
 
 This project is submitted as academic coursework for the Computer Vision course.
 
 ---
 
-## 👤 Author
+##  Author
 
 **Manvi Sharma**
 `23BAI10777`

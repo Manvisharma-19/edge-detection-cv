@@ -27,11 +27,11 @@ This project solves that by building a real-time edge detection system that can:
 ```
 edge-detection-byop/
 │
-├── edge_detection_pipeline.py   # Main script
-├── requirements.txt             # Dependencies
+├── edge_detection_pipeline.py
+├── requirements.txt
 │
-├── sample_data/                 # Auto-created
-│   └── sample.jpg               # Sample image
+├── sample_data/
+│   └── sample.jpg
 │
 ├── outputs/
 │   └── images/
@@ -39,6 +39,8 @@ edge-detection-byop/
 │       ├── canny_edges.jpg
 │       ├── sobel_edges.jpg
 │       ├── laplacian_edges.jpg
+│       ├── prewitt_edges.jpg      
+│       ├── scharr_edges.jpg
 │       └── comparison.png
 │
 └── README.md
@@ -97,14 +99,15 @@ python edge_detection_pipeline.py
 │  Grayscale + Noise Reduction │
 └───────────────┬──────────────┘
                 ▼
-┌────────────────────────────────────────┐
-│      Edge Detection Algorithms         │
-│  Canny │ Sobel │ Laplacian             │
-└───────────────┬────────────────────────┘
+┌────────────────────────────────────────────────────┐
+│          Edge Detection Algorithms                 │
+│  Canny │ Sobel │ Laplacian │ Prewitt │ Scharr      │
+└───────────────┬────────────────────────────────────┘
                 ▼
-┌──────────────────────────────┐
-│        OUTPUT RESULTS        │
-│  Edge Images + Comparison    │
+┌────────────────────────────────────────────┐
+│             OUTPUT RESULTS                 │
+│ Edge Images (All Methods) + Comparison     │
+└────────────────────────────────────────────┘
 └──────────────────────────────┘
 ```
 

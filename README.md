@@ -129,6 +129,21 @@ python edge_detection_pipeline.py
 - Detects edges using second-order derivatives
 - Captures fine details
 
+### 4. Prewitt Operator
+-Detects edges using first-order derivatives
+-Uses horizontal and vertical kernels
+
+### 5. Scharr Operator
+-Improved version of Sobel operator and Produces sharper edge results
+-Better edge detection for fine details and more accurate gradient calculation
+
+---
+
+##📤 Upload Image Edge Detection
+-Allows user to upload custom image
+-Applies all edge detection techniques
+-Displays comparison of results
+
 ---
 
 ## 📷 Webcam Edge Detection
@@ -147,6 +162,8 @@ python edge_detection_pipeline.py
 | `canny_edges.jpg` | Canny output |
 | `sobel_edges.jpg` | Sobel output |
 | `laplacian_edges.jpg` | Laplacian output |
+| `prewitt_edges.jpg` | Laplacian output |
+| `scharr_edges.jpg` | Laplacian output |
 | `comparison.png` | Side-by-side comparison |
 
 ---

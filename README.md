@@ -131,12 +131,12 @@ python edge_detection_pipeline.py
 
 ### 4. Prewitt Operator
 -Detects edges using first-order derivatives
--Uses horizontal and vertical kernels
+
 
 ### 5. Scharr Operator
--Improved version of Sobel operator and Produces sharper edge results
+-Improved version of Sobel operator and produces sharper edge results
 
--Better edge detection for fine details and more accurate gradient calculation
+
 
 ---
 
